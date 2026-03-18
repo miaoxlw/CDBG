@@ -10,8 +10,7 @@ function [F, G, label1, label2, iter_num, obj0, obj] = CDBG(D,F0,G0,lam)
 % G is the label matrix of m anchors m*c
 % iter_num is the number of iteration
 % obj is the objective function value
-%
-% Coded by Qimin Liang
+
 
 if nargin < 5
     lam = 2;
